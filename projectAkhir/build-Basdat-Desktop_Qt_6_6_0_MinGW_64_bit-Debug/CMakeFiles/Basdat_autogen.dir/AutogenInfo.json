@@ -292,9 +292,21 @@
 			null
 		],
 		[
+			"D:/projectAkhir/Basdat/login.h",
+			"MU",
+			"EWIEGA46WW/moc_login.cpp",
+			null
+		],
+		[
 			"D:/projectAkhir/Basdat/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"D:/projectAkhir/Basdat/register.h",
+			"MU",
+			"EWIEGA46WW/moc_register.cpp",
 			null
 		],
 		[
@@ -382,8 +394,10 @@
 	"SOURCES" : 
 	[
 		[ "D:/projectAkhir/Basdat/history.cpp", "MU", null ],
+		[ "D:/projectAkhir/Basdat/login.cpp", "MU", null ],
 		[ "D:/projectAkhir/Basdat/main.cpp", "MU", null ],
 		[ "D:/projectAkhir/Basdat/mainwindow.cpp", "MU", null ],
+		[ "D:/projectAkhir/Basdat/register.cpp", "MU", null ],
 		[ "D:/projectAkhir/Basdat/report.cpp", "MU", null ],
 		[ "D:/projectAkhir/Basdat/transfer.cpp", "MU", null ]
 	],

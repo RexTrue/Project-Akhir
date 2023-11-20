@@ -26,146 +26,207 @@
     <string notr="true">background: rgb(78, 131, 181);</string>
    </property>
    <widget class="QWidget" name="page">
-    <widget class="QLineEdit" name="lineEdit_2">
+    <widget class="QFrame" name="frame">
      <property name="geometry">
       <rect>
        <x>60</x>
-       <y>350</y>
-       <width>671</width>
-       <height>31</height>
+       <y>70</y>
+       <width>681</width>
+       <height>531</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">border: 2px solid grey;
-background : #f5f5f5;;</string>
+      <string notr="true">background : #f5f5f5;
+border : 1px solid black;
+border-radius : 25px;</string>
      </property>
-    </widget>
-    <widget class="QLabel" name="label">
-     <property name="geometry">
-      <rect>
-       <x>60</x>
-       <y>220</y>
-       <width>731</width>
-       <height>21</height>
-      </rect>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
      </property>
-     <property name="styleSheet">
-      <string notr="true">font-size: 16px;
-color: white;</string>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
      </property>
-     <property name="text">
-      <string>No. Rekening</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton">
-     <property name="geometry">
-      <rect>
-       <x>320</x>
-       <y>420</y>
-       <width>161</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="cursor">
-      <cursorShape>PointingHandCursor</cursorShape>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">font-size: 20px;
+     <widget class="QLineEdit" name="lineEdit_2">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>260</y>
+        <width>561</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background : #f5f5f5;
+border : 2px solid grey;
+border-radius : 10px;
+font-size : 14px;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>360</y>
+        <width>561</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:rgb(78, 131, 181);
+font-size : 17px;
+font-weight : bold ;
+border-radius : 20px;</string>
+      </property>
+      <property name="text">
+       <string>TRANSFER</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>470</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:rgb(78, 131, 181);
+font-weight : bold ;
+border-radius : 10px;</string>
+      </property>
+      <property name="text">
+       <string>Home</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>250</y>
+        <width>61</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background : #f5f5f5;
 color: black;
-background: #f5f5f5;
-border: 1px solid grey;
-border-radius : 15px;</string>
-     </property>
-     <property name="text">
-      <string>Transfer</string>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEdit_3">
-     <property name="geometry">
-      <rect>
-       <x>60</x>
-       <y>140</y>
-       <width>671</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">border: 2px solid grey;
-background : #f5f5f5;
-font-size: 14px;
+font-size : 14px;
+font-weight : bold;
+border : none;</string>
+      </property>
+      <property name="text">
+       <string>Amount</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>190</y>
+        <width>561</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background : #f5f5f5;
+border : 2px solid grey;
+border-radius : 10px;
+font-size : 14px;</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_3">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>120</y>
+        <width>561</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background : #f5f5f5;
+border : 2px solid grey;
+border-radius : 10px;
+font-size : 14px;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>68</x>
+        <y>180</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background : #f5f5f5;
+color: black;
+font-size : 14px;
+font-weight : bold;
+border : none;</string>
+      </property>
+      <property name="text">
+       <string>No. Rekening</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>72</x>
+        <y>110</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background : #f5f5f5;
+color: black;
+font-size : 14px;
+font-weight : bold;
+border : none;</string>
+      </property>
+      <property name="text">
+       <string>Bank Tujuan</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>40</y>
+        <width>161</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size: 28px;
+font-weight: bold;
+color:black;
+alignment:align-center;
+border : none;
 </string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_2">
-     <property name="geometry">
-      <rect>
-       <x>60</x>
-       <y>320</y>
-       <width>731</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">font-size: 16px;
-color: white;</string>
-     </property>
-     <property name="text">
-      <string>Amount</string>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEdit">
-     <property name="geometry">
-      <rect>
-       <x>60</x>
-       <y>250</y>
-       <width>671</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">border: 2px solid grey;
-background : #f5f5f5;</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_3">
-     <property name="geometry">
-      <rect>
-       <x>60</x>
-       <y>110</y>
-       <width>731</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">font-size: 16px;
-color: white;</string>
-     </property>
-     <property name="text">
-      <string>Bank Tujuan</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_2">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>590</y>
-       <width>81</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="cursor">
-      <cursorShape>PointingHandCursor</cursorShape>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">font-size: 20px;
-color: black;
-background: #f5f5f5;
-border: 1px solid grey;
-border-radius: 10px;</string>
-     </property>
-     <property name="text">
-      <string>Home</string>
-     </property>
+      </property>
+      <property name="text">
+       <string>TRANSFER</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
     </widget>
    </widget>
    <widget class="QWidget" name="page_2"/>

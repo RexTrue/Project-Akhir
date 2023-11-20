@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QFrame>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
@@ -24,14 +25,16 @@ class Ui_Transfer
 public:
     QStackedWidget *stackedWidget;
     QWidget *page;
+    QFrame *frame;
     QLineEdit *lineEdit_2;
-    QLabel *label;
     QPushButton *pushButton;
-    QLineEdit *lineEdit_3;
+    QPushButton *pushButton_2;
     QLabel *label_2;
     QLineEdit *lineEdit;
+    QLineEdit *lineEdit_3;
+    QLabel *label;
     QLabel *label_3;
-    QPushButton *pushButton_2;
+    QLabel *label_4;
     QWidget *page_2;
 
     void setupUi(QWidget *Transfer)
@@ -45,56 +48,86 @@ public:
         stackedWidget->setStyleSheet(QString::fromUtf8("background: rgb(78, 131, 181);"));
         page = new QWidget();
         page->setObjectName("page");
-        lineEdit_2 = new QLineEdit(page);
+        frame = new QFrame(page);
+        frame->setObjectName("frame");
+        frame->setGeometry(QRect(60, 70, 681, 531));
+        frame->setStyleSheet(QString::fromUtf8("background : #f5f5f5;\n"
+"border : 1px solid black;\n"
+"border-radius : 25px;"));
+        frame->setFrameShape(QFrame::StyledPanel);
+        frame->setFrameShadow(QFrame::Raised);
+        lineEdit_2 = new QLineEdit(frame);
         lineEdit_2->setObjectName("lineEdit_2");
-        lineEdit_2->setGeometry(QRect(60, 350, 671, 31));
-        lineEdit_2->setStyleSheet(QString::fromUtf8("border: 2px solid grey;\n"
-"background : #f5f5f5;;"));
-        label = new QLabel(page);
-        label->setObjectName("label");
-        label->setGeometry(QRect(60, 220, 731, 21));
-        label->setStyleSheet(QString::fromUtf8("font-size: 16px;\n"
-"color: white;"));
-        pushButton = new QPushButton(page);
+        lineEdit_2->setGeometry(QRect(60, 260, 561, 31));
+        lineEdit_2->setStyleSheet(QString::fromUtf8("background : #f5f5f5;\n"
+"border : 2px solid grey;\n"
+"border-radius : 10px;\n"
+"font-size : 14px;"));
+        pushButton = new QPushButton(frame);
         pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(320, 420, 161, 41));
+        pushButton->setGeometry(QRect(60, 360, 561, 41));
         pushButton->setCursor(QCursor(Qt::PointingHandCursor));
-        pushButton->setStyleSheet(QString::fromUtf8("font-size: 20px;\n"
-"color: black;\n"
-"background: #f5f5f5;\n"
-"border: 1px solid grey;\n"
-"border-radius : 15px;"));
-        lineEdit_3 = new QLineEdit(page);
-        lineEdit_3->setObjectName("lineEdit_3");
-        lineEdit_3->setGeometry(QRect(60, 140, 671, 31));
-        lineEdit_3->setStyleSheet(QString::fromUtf8("border: 2px solid grey;\n"
-"background : #f5f5f5;\n"
-"font-size: 14px;\n"
-""));
-        label_2 = new QLabel(page);
-        label_2->setObjectName("label_2");
-        label_2->setGeometry(QRect(60, 320, 731, 21));
-        label_2->setStyleSheet(QString::fromUtf8("font-size: 16px;\n"
-"color: white;"));
-        lineEdit = new QLineEdit(page);
-        lineEdit->setObjectName("lineEdit");
-        lineEdit->setGeometry(QRect(60, 250, 671, 31));
-        lineEdit->setStyleSheet(QString::fromUtf8("border: 2px solid grey;\n"
-"background : #f5f5f5;"));
-        label_3 = new QLabel(page);
-        label_3->setObjectName("label_3");
-        label_3->setGeometry(QRect(60, 110, 731, 21));
-        label_3->setStyleSheet(QString::fromUtf8("font-size: 16px;\n"
-"color: white;"));
-        pushButton_2 = new QPushButton(page);
+        pushButton->setStyleSheet(QString::fromUtf8("background:rgb(78, 131, 181);\n"
+"font-size : 17px;\n"
+"font-weight : bold ;\n"
+"border-radius : 20px;"));
+        pushButton_2 = new QPushButton(frame);
         pushButton_2->setObjectName("pushButton_2");
-        pushButton_2->setGeometry(QRect(30, 590, 81, 31));
+        pushButton_2->setGeometry(QRect(30, 470, 81, 31));
         pushButton_2->setCursor(QCursor(Qt::PointingHandCursor));
-        pushButton_2->setStyleSheet(QString::fromUtf8("font-size: 20px;\n"
+        pushButton_2->setStyleSheet(QString::fromUtf8("background:rgb(78, 131, 181);\n"
+"font-weight : bold ;\n"
+"border-radius : 10px;"));
+        label_2 = new QLabel(frame);
+        label_2->setObjectName("label_2");
+        label_2->setGeometry(QRect(70, 250, 61, 21));
+        label_2->setStyleSheet(QString::fromUtf8("background : #f5f5f5;\n"
 "color: black;\n"
-"background: #f5f5f5;\n"
-"border: 1px solid grey;\n"
-"border-radius: 10px;"));
+"font-size : 14px;\n"
+"font-weight : bold;\n"
+"border : none;"));
+        label_2->setAlignment(Qt::AlignCenter);
+        lineEdit = new QLineEdit(frame);
+        lineEdit->setObjectName("lineEdit");
+        lineEdit->setGeometry(QRect(60, 190, 561, 31));
+        lineEdit->setStyleSheet(QString::fromUtf8("background : #f5f5f5;\n"
+"border : 2px solid grey;\n"
+"border-radius : 10px;\n"
+"font-size : 14px;"));
+        lineEdit_3 = new QLineEdit(frame);
+        lineEdit_3->setObjectName("lineEdit_3");
+        lineEdit_3->setGeometry(QRect(60, 120, 561, 31));
+        lineEdit_3->setStyleSheet(QString::fromUtf8("background : #f5f5f5;\n"
+"border : 2px solid grey;\n"
+"border-radius : 10px;\n"
+"font-size : 14px;"));
+        label = new QLabel(frame);
+        label->setObjectName("label");
+        label->setGeometry(QRect(68, 180, 91, 21));
+        label->setStyleSheet(QString::fromUtf8("background : #f5f5f5;\n"
+"color: black;\n"
+"font-size : 14px;\n"
+"font-weight : bold;\n"
+"border : none;"));
+        label->setAlignment(Qt::AlignCenter);
+        label_3 = new QLabel(frame);
+        label_3->setObjectName("label_3");
+        label_3->setGeometry(QRect(72, 110, 91, 21));
+        label_3->setStyleSheet(QString::fromUtf8("background : #f5f5f5;\n"
+"color: black;\n"
+"font-size : 14px;\n"
+"font-weight : bold;\n"
+"border : none;"));
+        label_4 = new QLabel(frame);
+        label_4->setObjectName("label_4");
+        label_4->setGeometry(QRect(260, 40, 161, 31));
+        label_4->setStyleSheet(QString::fromUtf8("font-size: 28px;\n"
+"font-weight: bold;\n"
+"color:black;\n"
+"alignment:align-center;\n"
+"border : none;\n"
+""));
+        label_4->setAlignment(Qt::AlignCenter);
         stackedWidget->addWidget(page);
         page_2 = new QWidget();
         page_2->setObjectName("page_2");
@@ -108,11 +141,12 @@ public:
     void retranslateUi(QWidget *Transfer)
     {
         Transfer->setWindowTitle(QCoreApplication::translate("Transfer", "Form", nullptr));
-        label->setText(QCoreApplication::translate("Transfer", "No. Rekening", nullptr));
-        pushButton->setText(QCoreApplication::translate("Transfer", "Transfer", nullptr));
-        label_2->setText(QCoreApplication::translate("Transfer", "Amount", nullptr));
-        label_3->setText(QCoreApplication::translate("Transfer", "Bank Tujuan", nullptr));
+        pushButton->setText(QCoreApplication::translate("Transfer", "TRANSFER", nullptr));
         pushButton_2->setText(QCoreApplication::translate("Transfer", "Home", nullptr));
+        label_2->setText(QCoreApplication::translate("Transfer", "Amount", nullptr));
+        label->setText(QCoreApplication::translate("Transfer", "No. Rekening", nullptr));
+        label_3->setText(QCoreApplication::translate("Transfer", "Bank Tujuan", nullptr));
+        label_4->setText(QCoreApplication::translate("Transfer", "TRANSFER", nullptr));
     } // retranslateUi
 
 };

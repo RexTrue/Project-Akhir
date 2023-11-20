@@ -32,7 +32,7 @@
        <x>50</x>
        <y>60</y>
        <width>691</width>
-       <height>481</height>
+       <height>561</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -61,8 +61,8 @@ font-weight: bold;</string>
     <widget class="QPushButton" name="pushButton">
      <property name="geometry">
       <rect>
-       <x>20</x>
-       <y>600</y>
+       <x>60</x>
+       <y>580</y>
        <width>81</width>
        <height>31</height>
       </rect>
@@ -71,12 +71,9 @@ font-weight: bold;</string>
       <cursorShape>PointingHandCursor</cursorShape>
      </property>
      <property name="styleSheet">
-      <string notr="true">font-size: 20px;
-color: black;
-background: #f5f5f5;
-border: 1px solid grey;
-border-radius: 10px;
-</string>
+      <string notr="true">background:rgb(78, 131, 181);
+font-weight : bold ;
+border-radius : 10px;</string>
      </property>
      <property name="text">
       <string>Home</string>

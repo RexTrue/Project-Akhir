@@ -97,6 +97,22 @@ build CMakeFiles/Basdat.dir/report.cpp.obj: CXX_COMPILER__Basdat_Debug D$:/proje
   OBJECT_DIR = CMakeFiles\Basdat.dir
   OBJECT_FILE_DIR = CMakeFiles\Basdat.dir
 
+build CMakeFiles/Basdat.dir/login.cpp.obj: CXX_COMPILER__Basdat_Debug D$:/projectAkhir/Basdat/login.cpp || cmake_object_order_depends_target_Basdat
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Basdat.dir\login.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
+  INCLUDES = -ID:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/include -isystem C:/Qt/6.6.0/mingw_64/include/QtCore -isystem C:/Qt/6.6.0/mingw_64/include -isystem C:/Qt/6.6.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.6.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.6.0/mingw_64/include/QtGui -isystem C:/Qt/6.6.0/mingw_64/include/QtSql
+  OBJECT_DIR = CMakeFiles\Basdat.dir
+  OBJECT_FILE_DIR = CMakeFiles\Basdat.dir
+
+build CMakeFiles/Basdat.dir/register.cpp.obj: CXX_COMPILER__Basdat_Debug D$:/projectAkhir/Basdat/register.cpp || cmake_object_order_depends_target_Basdat
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Basdat.dir\register.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
+  INCLUDES = -ID:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/include -isystem C:/Qt/6.6.0/mingw_64/include/QtCore -isystem C:/Qt/6.6.0/mingw_64/include -isystem C:/Qt/6.6.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.6.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.6.0/mingw_64/include/QtGui -isystem C:/Qt/6.6.0/mingw_64/include/QtSql
+  OBJECT_DIR = CMakeFiles\Basdat.dir
+  OBJECT_FILE_DIR = CMakeFiles\Basdat.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Basdat
@@ -105,7 +121,7 @@ build CMakeFiles/Basdat.dir/report.cpp.obj: CXX_COMPILER__Basdat_Debug D$:/proje
 #############################################
 # Link the executable Basdat.exe
 
-build Basdat.exe: CXX_EXECUTABLE_LINKER__Basdat_Debug CMakeFiles/Basdat.dir/Basdat_autogen/mocs_compilation.cpp.obj CMakeFiles/Basdat.dir/main.cpp.obj CMakeFiles/Basdat.dir/mainwindow.cpp.obj CMakeFiles/Basdat.dir/transfer.cpp.obj CMakeFiles/Basdat.dir/history.cpp.obj CMakeFiles/Basdat.dir/report.cpp.obj | C$:/Qt/6.6.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.6.0/mingw_64/lib/libQt6Sql.a C$:/Qt/6.6.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.6.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.6.0/mingw_64/lib/libQt6EntryPoint.a || Basdat_autogen Basdat_autogen_timestamp_deps
+build Basdat.exe: CXX_EXECUTABLE_LINKER__Basdat_Debug CMakeFiles/Basdat.dir/Basdat_autogen/mocs_compilation.cpp.obj CMakeFiles/Basdat.dir/main.cpp.obj CMakeFiles/Basdat.dir/mainwindow.cpp.obj CMakeFiles/Basdat.dir/transfer.cpp.obj CMakeFiles/Basdat.dir/history.cpp.obj CMakeFiles/Basdat.dir/report.cpp.obj CMakeFiles/Basdat.dir/login.cpp.obj CMakeFiles/Basdat.dir/register.cpp.obj | C$:/Qt/6.6.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.6.0/mingw_64/lib/libQt6Sql.a C$:/Qt/6.6.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.6.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.6.0/mingw_64/lib/libQt6EntryPoint.a || Basdat_autogen Basdat_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.6.0/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.6.0/mingw_64/lib/libQt6Sql.a  C:/Qt/6.6.0/mingw_64/lib/libQt6Gui.a  -ld3d11  -ldxgi  -ldxguid  -ld3d12  C:/Qt/6.6.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.6.0/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -192,7 +208,7 @@ build Basdat_autogen_timestamp_deps: phony CMakeFiles/Basdat_autogen_timestamp_d
 #############################################
 # Utility command for Basdat_autogen
 
-build Basdat_autogen: phony CMakeFiles/Basdat_autogen Basdat_autogen/include/ui_mainwindow.h Basdat_autogen/include/ui_transfer.h Basdat_autogen/include/ui_history.h Basdat_autogen/include/ui_report.h Basdat_autogen/timestamp Basdat_autogen/mocs_compilation.cpp Basdat_autogen_timestamp_deps
+build Basdat_autogen: phony CMakeFiles/Basdat_autogen Basdat_autogen/include/ui_mainwindow.h Basdat_autogen/include/ui_transfer.h Basdat_autogen/include/ui_history.h Basdat_autogen/include/ui_report.h Basdat_autogen/include/ui_login.h Basdat_autogen/include/ui_register.h Basdat_autogen/timestamp Basdat_autogen/mocs_compilation.cpp Basdat_autogen_timestamp_deps
 
 
 #############################################
@@ -208,13 +224,13 @@ build Basdat_autogen/timestamp Basdat_autogen/mocs_compilation.cpp | ${cmake_nin
 #############################################
 # Phony custom command for CMakeFiles\Basdat_autogen_timestamp_deps
 
-build CMakeFiles/Basdat_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Basdat_autogen_timestamp_deps: phony C$:/Qt/6.6.0/mingw_64/./bin/uic.exe C$:/Qt/6.6.0/mingw_64/./bin/moc.exe C$:/Qt/6.6.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.6.0/mingw_64/lib/libQt6Sql.a C$:/Qt/6.6.0/mingw_64/lib/libQt6Core.a
+build CMakeFiles/Basdat_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Basdat_autogen_timestamp_deps: phony C$:/Qt/6.6.0/mingw_64/./bin/uic.exe C$:/Qt/6.6.0/mingw_64/./bin/moc.exe C$:/Qt/6.6.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.6.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.6.0/mingw_64/lib/libQt6Sql.a
 
 
 #############################################
 # Phony custom command for CMakeFiles\Basdat_autogen
 
-build CMakeFiles/Basdat_autogen Basdat_autogen/include/ui_mainwindow.h Basdat_autogen/include/ui_transfer.h Basdat_autogen/include/ui_history.h Basdat_autogen/include/ui_report.h | ${cmake_ninja_workdir}CMakeFiles/Basdat_autogen ${cmake_ninja_workdir}Basdat_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}Basdat_autogen/include/ui_transfer.h ${cmake_ninja_workdir}Basdat_autogen/include/ui_history.h ${cmake_ninja_workdir}Basdat_autogen/include/ui_report.h: phony Basdat_autogen/timestamp || Basdat_autogen_timestamp_deps
+build CMakeFiles/Basdat_autogen Basdat_autogen/include/ui_mainwindow.h Basdat_autogen/include/ui_transfer.h Basdat_autogen/include/ui_history.h Basdat_autogen/include/ui_report.h Basdat_autogen/include/ui_login.h Basdat_autogen/include/ui_register.h | ${cmake_ninja_workdir}CMakeFiles/Basdat_autogen ${cmake_ninja_workdir}Basdat_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}Basdat_autogen/include/ui_transfer.h ${cmake_ninja_workdir}Basdat_autogen/include/ui_history.h ${cmake_ninja_workdir}Basdat_autogen/include/ui_report.h ${cmake_ninja_workdir}Basdat_autogen/include/ui_login.h ${cmake_ninja_workdir}Basdat_autogen/include/ui_register.h: phony Basdat_autogen/timestamp || Basdat_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

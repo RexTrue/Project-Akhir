@@ -26,6 +26,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         transfer.h transfer.cpp transfer.ui
         history.h history.cpp history.ui
         report.h report.cpp report.ui
+        login.h login.cpp login.ui
+        register.h register.cpp register.ui
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Basdat APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

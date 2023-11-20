@@ -538,9 +538,13 @@ Basdat_autogen/timestamp: \
   D:/projectAkhir/Basdat/CMakeLists.txt \
   D:/projectAkhir/Basdat/history.cpp \
   D:/projectAkhir/Basdat/history.h \
+  D:/projectAkhir/Basdat/login.cpp \
+  D:/projectAkhir/Basdat/login.h \
   D:/projectAkhir/Basdat/main.cpp \
   D:/projectAkhir/Basdat/mainwindow.cpp \
   D:/projectAkhir/Basdat/mainwindow.h \
+  D:/projectAkhir/Basdat/register.cpp \
+  D:/projectAkhir/Basdat/register.h \
   D:/projectAkhir/Basdat/report.cpp \
   D:/projectAkhir/Basdat/report.h \
   D:/projectAkhir/Basdat/transfer.cpp \
@@ -551,7 +555,9 @@ Basdat_autogen/timestamp: \
   CMakeFiles/3.24.2/CMakeRCCompiler.cmake \
   CMakeFiles/3.24.2/CMakeSystem.cmake \
   D:/projectAkhir/Basdat/history.ui \
+  D:/projectAkhir/Basdat/login.ui \
   D:/projectAkhir/Basdat/mainwindow.ui \
+  D:/projectAkhir/Basdat/register.ui \
   D:/projectAkhir/Basdat/report.ui \
   D:/projectAkhir/Basdat/transfer.ui \
   C:/Qt/Tools/CMake_64/bin/cmake.exe
