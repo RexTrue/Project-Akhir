@@ -82,8 +82,10 @@ public:
         lineEdit = new QLineEdit(page);
         lineEdit->setObjectName("lineEdit");
         lineEdit->setGeometry(QRect(160, 250, 461, 31));
-        lineEdit->setStyleSheet(QString::fromUtf8("border: 1px solid black;\n"
-"background : #f5f5f5;"));
+        lineEdit->setStyleSheet(QString::fromUtf8("background : #f5f5f5;\n"
+"border : 2px solid grey;\n"
+"border-radius : 10px;\n"
+"font-size : 14px;"));
         label_3 = new QLabel(page);
         label_3->setObjectName("label_3");
         label_3->setGeometry(QRect(160, 290, 91, 31));
@@ -92,8 +94,10 @@ public:
         lineEdit_2 = new QLineEdit(page);
         lineEdit_2->setObjectName("lineEdit_2");
         lineEdit_2->setGeometry(QRect(160, 320, 461, 121));
-        lineEdit_2->setStyleSheet(QString::fromUtf8("border : 1px solid black;\n"
-"background : #f5f5f5;"));
+        lineEdit_2->setStyleSheet(QString::fromUtf8("background : #f5f5f5;\n"
+"border : 2px solid grey;\n"
+"border-radius : 10px;\n"
+"font-size : 14px;"));
         label_4 = new QLabel(page);
         label_4->setObjectName("label_4");
         label_4->setGeometry(QRect(160, 140, 71, 31));
@@ -102,9 +106,10 @@ public:
         lineEdit_3 = new QLineEdit(page);
         lineEdit_3->setObjectName("lineEdit_3");
         lineEdit_3->setGeometry(QRect(160, 170, 461, 31));
-        lineEdit_3->setStyleSheet(QString::fromUtf8("border: 1px solid black;\n"
-"background: #f5f5f5;\n"
-""));
+        lineEdit_3->setStyleSheet(QString::fromUtf8("background : #f5f5f5;\n"
+"border : 2px solid grey;\n"
+"border-radius : 10px;\n"
+"font-size : 14px;"));
         stackedWidget->addWidget(page);
         page_2 = new QWidget();
         page_2->setObjectName("page_2");

@@ -1,11 +1,21 @@
 #include "transfer.h"
 #include "ui_transfer.h"
+#include "showbankname.h"
+
+#include <QSqlQueryModel>
+#include <QSqlQuery>
+#include <QListView>
+#include <QModelIndex>
 
 Transfer::Transfer(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::Transfer)
 {
     ui->setupUi(this);
+
+    model = new QSqlQueryModel();
+
+    ui->lineEdit_3->setReadOnly(true);
 }
 
 Transfer::~Transfer()
@@ -20,8 +30,13 @@ void Transfer::on_pushButton_2_clicked()
 }
 
 
-void Transfer::on_pushButton_clicked()
+void Transfer::on_toolButton_clicked()
 {
-    ui->stackedWidget->setCurrentWidget(0);
+    ;
+}
+
+int Transfer::getItemClicked(int index)
+{
+    ;
 }
 

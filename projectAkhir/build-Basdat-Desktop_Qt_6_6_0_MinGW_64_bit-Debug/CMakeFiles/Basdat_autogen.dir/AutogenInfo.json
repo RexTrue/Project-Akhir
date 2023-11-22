@@ -1,16 +1,16 @@
 {
-	"BUILD_DIR" : "D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen",
-	"CMAKE_BINARY_DIR" : "D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "D:/projectAkhir/Basdat",
+	"BUILD_DIR" : "D:/Proyek akhir algo 1/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen",
+	"CMAKE_BINARY_DIR" : "D:/Proyek akhir algo 1/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/Proyek akhir algo 1/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Proyek akhir algo 1/projectAkhir/Basdat",
 	"CMAKE_EXECUTABLE" : "C:/Qt/Tools/CMake_64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"D:/projectAkhir/Basdat/CMakeLists.txt",
-		"D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake",
-		"D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/3.24.2/CMakeSystem.cmake",
+		"D:/Proyek akhir algo 1/projectAkhir/Basdat/CMakeLists.txt",
+		"D:/Proyek akhir algo 1/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake",
+		"D:/Proyek akhir algo 1/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/3.24.2/CMakeSystem.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake",
-		"D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake",
+		"D:/Proyek akhir algo 1/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake",
@@ -23,7 +23,7 @@
 		"C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake",
-		"D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/3.24.2/CMakeRCCompiler.cmake",
+		"D:/Proyek akhir algo 1/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/3.24.2/CMakeRCCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeRCInformation.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-windres.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
@@ -280,51 +280,57 @@
 		"C:/Qt/6.6.0/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginAdditionalTargetInfo.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/GNUInstallDirs.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "D:/projectAkhir/Basdat",
-	"DEP_FILE" : "D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/deps",
+	"CMAKE_SOURCE_DIR" : "D:/Proyek akhir algo 1/projectAkhir/Basdat",
+	"DEP_FILE" : "D:/Proyek akhir algo 1/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "Basdat_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"D:/projectAkhir/Basdat/history.h",
+			"D:/Proyek akhir algo 1/projectAkhir/Basdat/history.h",
 			"MU",
 			"EWIEGA46WW/moc_history.cpp",
 			null
 		],
 		[
-			"D:/projectAkhir/Basdat/login.h",
+			"D:/Proyek akhir algo 1/projectAkhir/Basdat/login.h",
 			"MU",
 			"EWIEGA46WW/moc_login.cpp",
 			null
 		],
 		[
-			"D:/projectAkhir/Basdat/mainwindow.h",
+			"D:/Proyek akhir algo 1/projectAkhir/Basdat/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
 		],
 		[
-			"D:/projectAkhir/Basdat/register.h",
+			"D:/Proyek akhir algo 1/projectAkhir/Basdat/register.h",
 			"MU",
 			"EWIEGA46WW/moc_register.cpp",
 			null
 		],
 		[
-			"D:/projectAkhir/Basdat/report.h",
+			"D:/Proyek akhir algo 1/projectAkhir/Basdat/report.h",
 			"MU",
 			"EWIEGA46WW/moc_report.cpp",
 			null
 		],
 		[
-			"D:/projectAkhir/Basdat/transfer.h",
+			"D:/Proyek akhir algo 1/projectAkhir/Basdat/showbankname.h",
+			"MU",
+			"EWIEGA46WW/moc_showbankname.cpp",
+			null
+		],
+		[
+			"D:/Proyek akhir algo 1/projectAkhir/Basdat/transfer.h",
 			"MU",
 			"EWIEGA46WW/moc_transfer.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/include",
-	"MOC_COMPILATION_FILE" : "D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "D:/Proyek akhir algo 1/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/include",
+	"MOC_COMPILATION_FILE" : "D:/Proyek akhir algo 1/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
@@ -380,26 +386,35 @@
 		"-c",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "D:/Proyek akhir algo 1/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 14,
-	"PARSE_CACHE_FILE" : "D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/Basdat_autogen.dir/ParseCache.txt",
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "D:/Proyek akhir algo 1/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/Basdat_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/6.6.0/mingw_64/./bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/Qt/6.6.0/mingw_64/./bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 6,
-	"SETTINGS_FILE" : "D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/Basdat_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "D:/Proyek akhir algo 1/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/Basdat_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "D:/projectAkhir/Basdat/history.cpp", "MU", null ],
-		[ "D:/projectAkhir/Basdat/login.cpp", "MU", null ],
-		[ "D:/projectAkhir/Basdat/main.cpp", "MU", null ],
-		[ "D:/projectAkhir/Basdat/mainwindow.cpp", "MU", null ],
-		[ "D:/projectAkhir/Basdat/register.cpp", "MU", null ],
-		[ "D:/projectAkhir/Basdat/report.cpp", "MU", null ],
-		[ "D:/projectAkhir/Basdat/transfer.cpp", "MU", null ]
+		[ "D:/Proyek akhir algo 1/projectAkhir/Basdat/history.cpp", "MU", null ],
+		[ "D:/Proyek akhir algo 1/projectAkhir/Basdat/login.cpp", "MU", null ],
+		[ "D:/Proyek akhir algo 1/projectAkhir/Basdat/main.cpp", "MU", null ],
+		[
+			"D:/Proyek akhir algo 1/projectAkhir/Basdat/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[ "D:/Proyek akhir algo 1/projectAkhir/Basdat/register.cpp", "MU", null ],
+		[ "D:/Proyek akhir algo 1/projectAkhir/Basdat/report.cpp", "MU", null ],
+		[
+			"D:/Proyek akhir algo 1/projectAkhir/Basdat/showbankname.cpp",
+			"MU",
+			null
+		],
+		[ "D:/Proyek akhir algo 1/projectAkhir/Basdat/transfer.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

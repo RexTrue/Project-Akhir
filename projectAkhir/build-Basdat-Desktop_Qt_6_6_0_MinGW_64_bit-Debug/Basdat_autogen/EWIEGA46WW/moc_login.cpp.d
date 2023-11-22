@@ -1,9 +1,11 @@
-D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/EWIEGA46WW/moc_login.cpp: D:/projectAkhir/Basdat/login.h \
-  D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/moc_predefs.h \
+D:/Proyek\ akhir\ algo\ 1/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/EWIEGA46WW/moc_login.cpp: D:/Proyek\ akhir\ algo\ 1/projectAkhir/Basdat/login.h \
+  D:/Proyek\ akhir\ algo\ 1/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/moc_predefs.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/QDate \
   C:/Qt/6.6.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/q20type_traits.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/q23utility.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/qabstractitemmodel.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qalgorithms.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qanystringview.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qarraydata.h \
@@ -18,6 +20,7 @@ D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/
   C:/Qt/6.6.0/mingw_64/include/QtCore/qbytearrayalgorithms.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qbytearraylist.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qbytearrayview.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/qcalendar.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qchar.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qcompare.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qcompare_impl.h \
@@ -30,6 +33,7 @@ D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/
   C:/Qt/6.6.0/mingw_64/include/QtCore/qcontiguouscache.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qdarwinhelpers.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qdatastream.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/qdatetime.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qdebug.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qexceptionhandling.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qflags.h \
@@ -42,12 +46,14 @@ D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/
   C:/Qt/6.6.0/mingw_64/include/QtCore/qglobalstatic.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qhash.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qhashfunctions.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/qiodevice.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qiodevicebase.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qiterable.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qiterator.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qlatin1stringview.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qline.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qlist.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/qlocale.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qlogging.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qmalloc.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qmap.h \
@@ -108,6 +114,7 @@ D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/
   C:/Qt/6.6.0/mingw_64/include/QtCore/qtversionchecks.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qtypeinfo.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qtypes.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/qurl.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qutf8stringview.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qvariant.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qvarlengtharray.h \
@@ -126,19 +133,30 @@ D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/
   C:/Qt/6.6.0/mingw_64/include/QtGui/qkeysequence.h \
   C:/Qt/6.6.0/mingw_64/include/QtGui/qpaintdevice.h \
   C:/Qt/6.6.0/mingw_64/include/QtGui/qpalette.h \
+  C:/Qt/6.6.0/mingw_64/include/QtGui/qpicture.h \
   C:/Qt/6.6.0/mingw_64/include/QtGui/qpixelformat.h \
   C:/Qt/6.6.0/mingw_64/include/QtGui/qpixmap.h \
   C:/Qt/6.6.0/mingw_64/include/QtGui/qpolygon.h \
   C:/Qt/6.6.0/mingw_64/include/QtGui/qregion.h \
   C:/Qt/6.6.0/mingw_64/include/QtGui/qrgb.h \
   C:/Qt/6.6.0/mingw_64/include/QtGui/qrgba64.h \
+  C:/Qt/6.6.0/mingw_64/include/QtGui/qtextdocument.h \
   C:/Qt/6.6.0/mingw_64/include/QtGui/qtgui-config.h \
   C:/Qt/6.6.0/mingw_64/include/QtGui/qtguiexports.h \
   C:/Qt/6.6.0/mingw_64/include/QtGui/qtguiglobal.h \
   C:/Qt/6.6.0/mingw_64/include/QtGui/qtransform.h \
   C:/Qt/6.6.0/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.6.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+  C:/Qt/6.6.0/mingw_64/include/QtSql/QSqlQueryModel \
+  C:/Qt/6.6.0/mingw_64/include/QtSql/qsqldatabase.h \
+  C:/Qt/6.6.0/mingw_64/include/QtSql/qsqlquerymodel.h \
+  C:/Qt/6.6.0/mingw_64/include/QtSql/qtsql-config.h \
+  C:/Qt/6.6.0/mingw_64/include/QtSql/qtsqlexports.h \
+  C:/Qt/6.6.0/mingw_64/include/QtSql/qtsqlglobal.h \
+  C:/Qt/6.6.0/mingw_64/include/QtWidgets/QLabel \
   C:/Qt/6.6.0/mingw_64/include/QtWidgets/QWidget \
+  C:/Qt/6.6.0/mingw_64/include/QtWidgets/qframe.h \
+  C:/Qt/6.6.0/mingw_64/include/QtWidgets/qlabel.h \
   C:/Qt/6.6.0/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.6.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.6.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
@@ -342,4 +360,5 @@ D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/sys/types.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
+  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
+  D:/Proyek\ akhir\ algo\ 1/projectAkhir/Basdat/register.h

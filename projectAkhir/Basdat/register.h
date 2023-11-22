@@ -2,21 +2,37 @@
 #define REGISTER_H
 
 #include <QWidget>
+#include <QDate>
+#include <QSqlQueryModel>
+#include <QLabel>
 
 namespace Ui {
-class register;
+class Register;
 }
 
-class register : public QWidget
+class Register : public QWidget
 {
     Q_OBJECT
 
 public:
-    explicit register(QWidget *parent = nullptr);
-    ~register();
+    explicit Register(QWidget *parent = nullptr);
+    ~Register();
+
+private slots:
+    void on_pushButton_clicked();
+    int NamaCheck(QString &inp);
+    int NIKCheck(QString &inp);
+    int UsernameCheck(QString &inp);
+    int AlamatCheck(QString &inp);
+    int NmrHPCheck(QString &inp);
+    int tglLahirCheck(QDate &inp);
+
+signals:
+    void BackToLogin();
 
 private:
-    Ui::register *ui;
+    Ui::Register *ui;
+    QLabel *ShowLoginResult;
 };
 
 #endif // REGISTER_H

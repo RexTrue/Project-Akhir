@@ -43,7 +43,7 @@ public:
         page->setObjectName("page");
         tableView = new QTableView(page);
         tableView->setObjectName("tableView");
-        tableView->setGeometry(QRect(50, 60, 691, 481));
+        tableView->setGeometry(QRect(50, 60, 691, 561));
         tableView->setStyleSheet(QString::fromUtf8("border: 1px solid black;\n"
 "border-radius: 20px;\n"
 "background: #f5f5f5;"));
@@ -54,14 +54,11 @@ public:
 "font-weight: bold;"));
         pushButton = new QPushButton(page);
         pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(20, 600, 81, 31));
+        pushButton->setGeometry(QRect(60, 580, 81, 31));
         pushButton->setCursor(QCursor(Qt::PointingHandCursor));
-        pushButton->setStyleSheet(QString::fromUtf8("font-size: 20px;\n"
-"color: black;\n"
-"background: #f5f5f5;\n"
-"border: 1px solid grey;\n"
-"border-radius: 10px;\n"
-""));
+        pushButton->setStyleSheet(QString::fromUtf8("background:rgb(78, 131, 181);\n"
+"font-weight : bold ;\n"
+"border-radius : 10px;"));
         stackedWidget->addWidget(page);
         page_2 = new QWidget();
         page_2->setObjectName("page_2");

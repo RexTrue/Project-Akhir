@@ -1,5 +1,5 @@
-D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/EWIEGA46WW/moc_report.cpp: D:/projectAkhir/Basdat/report.h \
-  D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/moc_predefs.h \
+D:/Proyek\ akhir\ algo\ 1/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/EWIEGA46WW/moc_report.cpp: D:/Proyek\ akhir\ algo\ 1/projectAkhir/Basdat/report.h \
+  D:/Proyek\ akhir\ algo\ 1/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/moc_predefs.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/q20type_traits.h \

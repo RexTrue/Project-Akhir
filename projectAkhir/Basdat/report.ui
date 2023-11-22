@@ -123,8 +123,10 @@ color : white;
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">border: 1px solid black;
-background : #f5f5f5;</string>
+      <string notr="true">background : #f5f5f5;
+border : 2px solid grey;
+border-radius : 10px;
+font-size : 14px;</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_3">
@@ -154,8 +156,10 @@ color : white;</string>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">border : 1px solid black;
-background : #f5f5f5;</string>
+      <string notr="true">background : #f5f5f5;
+border : 2px solid grey;
+border-radius : 10px;
+font-size : 14px;</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_4">
@@ -185,9 +189,10 @@ color : white;</string>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">border: 1px solid black;
-background: #f5f5f5;
-</string>
+      <string notr="true">background : #f5f5f5;
+border : 2px solid grey;
+border-radius : 10px;
+font-size : 14px;</string>
      </property>
     </widget>
    </widget>

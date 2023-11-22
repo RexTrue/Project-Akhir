@@ -2,6 +2,7 @@
 #define TRANSFER_H
 
 #include <QWidget>
+#include <QSqlQueryModel>
 
 namespace Ui {
 class Transfer;
@@ -18,10 +19,13 @@ public:
 private slots:
     void on_pushButton_2_clicked();
 
-    void on_pushButton_clicked();
+    void on_toolButton_clicked();
+
+    int getItemClicked(int index);
 
 private:
     Ui::Transfer *ui;
+    QSqlQueryModel *model;
 
 signals :
     void HomeClicked();

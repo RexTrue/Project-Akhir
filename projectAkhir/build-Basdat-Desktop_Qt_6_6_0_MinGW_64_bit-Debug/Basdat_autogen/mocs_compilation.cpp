@@ -4,4 +4,5 @@
 #include "EWIEGA46WW/moc_mainwindow.cpp"
 #include "EWIEGA46WW/moc_register.cpp"
 #include "EWIEGA46WW/moc_report.cpp"
+#include "EWIEGA46WW/moc_showbankname.cpp"
 #include "EWIEGA46WW/moc_transfer.cpp"

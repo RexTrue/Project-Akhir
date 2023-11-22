@@ -95,6 +95,7 @@ public:
 "border : 2px solid grey;\n"
 "border-radius : 10px;\n"
 "font-size : 14px;"));
+        lineEdit_2->setEchoMode(QLineEdit::Password);
         lineEdit = new QLineEdit(frame);
         lineEdit->setObjectName("lineEdit");
         lineEdit->setGeometry(QRect(20, 40, 351, 24));

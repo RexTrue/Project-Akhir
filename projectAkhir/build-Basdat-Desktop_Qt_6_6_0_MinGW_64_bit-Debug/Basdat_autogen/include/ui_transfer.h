@@ -16,6 +16,7 @@
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStackedWidget>
+#include <QtWidgets/QToolButton>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -35,6 +36,7 @@ public:
     QLabel *label;
     QLabel *label_3;
     QLabel *label_4;
+    QToolButton *toolButton;
     QWidget *page_2;
 
     void setupUi(QWidget *Transfer)
@@ -128,6 +130,13 @@ public:
 "border : none;\n"
 ""));
         label_4->setAlignment(Qt::AlignCenter);
+        toolButton = new QToolButton(frame);
+        toolButton->setObjectName("toolButton");
+        toolButton->setGeometry(QRect(630, 120, 22, 31));
+        toolButton->setStyleSheet(QString::fromUtf8("background : #f5f5f5;\n"
+"border : 2px solid grey;\n"
+"border-radius : 10px;\n"
+"font-size : 14px;"));
         stackedWidget->addWidget(page);
         page_2 = new QWidget();
         page_2->setObjectName("page_2");
@@ -147,6 +156,7 @@ public:
         label->setText(QCoreApplication::translate("Transfer", "No. Rekening", nullptr));
         label_3->setText(QCoreApplication::translate("Transfer", "Bank Tujuan", nullptr));
         label_4->setText(QCoreApplication::translate("Transfer", "TRANSFER", nullptr));
+        toolButton->setText(QCoreApplication::translate("Transfer", "...", nullptr));
     } // retranslateUi
 
 };

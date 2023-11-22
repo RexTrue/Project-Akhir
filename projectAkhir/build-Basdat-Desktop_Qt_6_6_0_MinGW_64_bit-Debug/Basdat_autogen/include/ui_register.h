@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QDateEdit>
 #include <QtWidgets/QFrame>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
@@ -20,18 +21,18 @@
 
 QT_BEGIN_NAMESPACE
 
-class Ui_register
+class Ui_Register
 {
 public:
     QStackedWidget *stackedWidget;
     QWidget *page;
     QFrame *frame;
+    QDateEdit *dateEdit;
     QLineEdit *lineEdit_5;
     QLabel *label_2;
     QLabel *label;
     QLabel *label_7;
     QLineEdit *lineEdit_2;
-    QLineEdit *lineEdit_6;
     QLabel *label_6;
     QLabel *label_5;
     QLineEdit *lineEdit_3;
@@ -44,12 +45,12 @@ public:
     QLabel *label_4;
     QWidget *page_2;
 
-    void setupUi(QWidget *register)
+    void setupUi(QWidget *Register)
     {
-        if (register->objectName().isEmpty())
-            register->setObjectName("register");
-        register->resize(800, 651);
-        stackedWidget = new QStackedWidget(register);
+        if (Register->objectName().isEmpty())
+            Register->setObjectName("Register");
+        Register->resize(800, 651);
+        stackedWidget = new QStackedWidget(Register);
         stackedWidget->setObjectName("stackedWidget");
         stackedWidget->setGeometry(QRect(0, 0, 800, 651));
         stackedWidget->setStyleSheet(QString::fromUtf8("background:rgb(78, 131, 181);"));
@@ -63,6 +64,17 @@ public:
 "border-radius : 10px;"));
         frame->setFrameShape(QFrame::StyledPanel);
         frame->setFrameShadow(QFrame::Raised);
+        dateEdit = new QDateEdit(frame);
+        dateEdit->setObjectName("dateEdit");
+        dateEdit->setGeometry(QRect(20, 290, 431, 25));
+        dateEdit->setCursor(QCursor(Qt::PointingHandCursor));
+        dateEdit->setStyleSheet(QString::fromUtf8("background : #f5f5f5;\n"
+"border : 2px solid grey;\n"
+"border-radius : 10px;\n"
+"font-size : 14px;\n"
+"font-weight:10px;"));
+        dateEdit->setAlignment(Qt::AlignCenter);
+        dateEdit->setCalendarPopup(true);
         lineEdit_5 = new QLineEdit(page);
         lineEdit_5->setObjectName("lineEdit_5");
         lineEdit_5->setGeometry(QRect(200, 380, 431, 24));
@@ -96,13 +108,6 @@ public:
 "border : 2px solid grey;\n"
 "border-radius : 10px;\n"
 "font-size : 14px;"));
-        lineEdit_6 = new QLineEdit(page);
-        lineEdit_6->setObjectName("lineEdit_6");
-        lineEdit_6->setGeometry(QRect(200, 430, 431, 24));
-        lineEdit_6->setStyleSheet(QString::fromUtf8("background : #f5f5f5;\n"
-"border : 2px solid grey;\n"
-"border-radius : 10px;\n"
-"font-size : 14px;"));
         label_6 = new QLabel(page);
         label_6->setObjectName("label_6");
         label_6->setGeometry(QRect(200, 360, 61, 16));
@@ -129,6 +134,7 @@ public:
 "border : 2px solid grey;\n"
 "border-radius : 10px;\n"
 "font-size : 14px;"));
+        lineEdit_7->setEchoMode(QLineEdit::Password);
         lineEdit_4 = new QLineEdit(page);
         lineEdit_4->setObjectName("lineEdit_4");
         lineEdit_4->setGeometry(QRect(200, 330, 431, 24));
@@ -173,29 +179,30 @@ public:
         page_2->setObjectName("page_2");
         stackedWidget->addWidget(page_2);
 
-        retranslateUi(register);
+        retranslateUi(Register);
 
-        QMetaObject::connectSlotsByName(register);
+        QMetaObject::connectSlotsByName(Register);
     } // setupUi
 
-    void retranslateUi(QWidget *register)
+    void retranslateUi(QWidget *Register)
     {
-        register->setWindowTitle(QCoreApplication::translate("register", "Form", nullptr));
-        label_2->setText(QCoreApplication::translate("register", "Nama", nullptr));
-        label->setText(QCoreApplication::translate("register", "Sign Up", nullptr));
-        label_7->setText(QCoreApplication::translate("register", "Tanggal Lahir", nullptr));
-        label_6->setText(QCoreApplication::translate("register", "Nomor HP", nullptr));
-        label_5->setText(QCoreApplication::translate("register", "Alamat", nullptr));
-        label_3->setText(QCoreApplication::translate("register", "NIK", nullptr));
-        pushButton->setText(QCoreApplication::translate("register", "Register", nullptr));
-        label_8->setText(QCoreApplication::translate("register", "Password", nullptr));
-        label_4->setText(QCoreApplication::translate("register", "Username", nullptr));
+        Register->setWindowTitle(QCoreApplication::translate("Register", "Form", nullptr));
+        dateEdit->setDisplayFormat(QCoreApplication::translate("Register", "yyyy-MM-dd", nullptr));
+        label_2->setText(QCoreApplication::translate("Register", "Nama", nullptr));
+        label->setText(QCoreApplication::translate("Register", "Sign Up", nullptr));
+        label_7->setText(QCoreApplication::translate("Register", "Tanggal Lahir", nullptr));
+        label_6->setText(QCoreApplication::translate("Register", "Nomor HP", nullptr));
+        label_5->setText(QCoreApplication::translate("Register", "Alamat", nullptr));
+        label_3->setText(QCoreApplication::translate("Register", "NIK", nullptr));
+        pushButton->setText(QCoreApplication::translate("Register", "Register", nullptr));
+        label_8->setText(QCoreApplication::translate("Register", "Password", nullptr));
+        label_4->setText(QCoreApplication::translate("Register", "Username", nullptr));
     } // retranslateUi
 
 };
 
 namespace Ui {
-    class register: public Ui_register {};
+    class Register: public Ui_Register {};
 } // namespace Ui
 
 QT_END_NAMESPACE

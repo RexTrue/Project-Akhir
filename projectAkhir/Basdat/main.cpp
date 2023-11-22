@@ -1,4 +1,4 @@
-#include "mainwindow.h"
+#include "login.h"
 
 #include <QApplication>
 #include <QtSql/QtSql>
@@ -9,9 +9,12 @@ int main(int argc, char *argv[])
     // Connect Sql
     auto db = QSqlDatabase::addDatabase("QMARIADB");
     db.setHostName("localhost");
-    db.setDatabaseName("db burjo");
+    db.setDatabaseName("teller bank");
     db.setUserName("root");
-    MainWindow w;
+    if(!db.open()){
+        qFatal() << "gagal membuka database";
+    }
+    login w;
     w.show();
     return a.exec();
 }

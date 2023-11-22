@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>register</class>
- <widget class="QWidget" name="register">
+ <class>Register</class>
+ <widget class="QWidget" name="Register">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -46,6 +46,35 @@ border-radius : 10px;</string>
      <property name="frameShadow">
       <enum>QFrame::Raised</enum>
      </property>
+     <widget class="QDateEdit" name="dateEdit">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>290</y>
+        <width>431</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background : #f5f5f5;
+border : 2px solid grey;
+border-radius : 10px;
+font-size : 14px;
+font-weight:10px;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="displayFormat">
+       <string>yyyy-MM-dd</string>
+      </property>
+      <property name="calendarPopup">
+       <bool>true</bool>
+      </property>
+     </widget>
     </widget>
     <widget class="QLineEdit" name="lineEdit_5">
      <property name="geometry">
@@ -136,22 +165,6 @@ border-radius : 10px;
 font-size : 14px;</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_6">
-     <property name="geometry">
-      <rect>
-       <x>200</x>
-       <y>430</y>
-       <width>431</width>
-       <height>24</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background : #f5f5f5;
-border : 2px solid grey;
-border-radius : 10px;
-font-size : 14px;</string>
-     </property>
-    </widget>
     <widget class="QLabel" name="label_6">
      <property name="geometry">
       <rect>
@@ -218,6 +231,9 @@ font-size : 14px;</string>
 border : 2px solid grey;
 border-radius : 10px;
 font-size : 14px;</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEdit_4">

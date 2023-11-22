@@ -1,9 +1,10 @@
-D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/EWIEGA46WW/moc_mainwindow.cpp: D:/projectAkhir/Basdat/mainwindow.h \
-  D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/moc_predefs.h \
+D:/Proyek\ akhir\ algo\ 1/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/EWIEGA46WW/moc_mainwindow.cpp: D:/Proyek\ akhir\ algo\ 1/projectAkhir/Basdat/mainwindow.h \
+  D:/Proyek\ akhir\ algo\ 1/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/moc_predefs.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/q20type_traits.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/q23utility.h \
+  C:/Qt/6.6.0/mingw_64/include/QtCore/qabstractitemmodel.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qalgorithms.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qanystringview.h \
   C:/Qt/6.6.0/mingw_64/include/QtCore/qarraydata.h \
@@ -138,6 +139,12 @@ D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/
   C:/Qt/6.6.0/mingw_64/include/QtGui/qtransform.h \
   C:/Qt/6.6.0/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.6.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+  C:/Qt/6.6.0/mingw_64/include/QtSql/QSqlQueryModel \
+  C:/Qt/6.6.0/mingw_64/include/QtSql/qsqldatabase.h \
+  C:/Qt/6.6.0/mingw_64/include/QtSql/qsqlquerymodel.h \
+  C:/Qt/6.6.0/mingw_64/include/QtSql/qtsql-config.h \
+  C:/Qt/6.6.0/mingw_64/include/QtSql/qtsqlexports.h \
+  C:/Qt/6.6.0/mingw_64/include/QtSql/qtsqlglobal.h \
   C:/Qt/6.6.0/mingw_64/include/QtWidgets/QMainWindow \
   C:/Qt/6.6.0/mingw_64/include/QtWidgets/QWidget \
   C:/Qt/6.6.0/mingw_64/include/QtWidgets/qmainwindow.h \
@@ -346,6 +353,6 @@ D:/projectAkhir/build-Basdat-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basdat_autogen/
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  D:/projectAkhir/Basdat/history.h \
-  D:/projectAkhir/Basdat/report.h \
-  D:/projectAkhir/Basdat/transfer.h
+  D:/Proyek\ akhir\ algo\ 1/projectAkhir/Basdat/history.h \
+  D:/Proyek\ akhir\ algo\ 1/projectAkhir/Basdat/report.h \
+  D:/Proyek\ akhir\ algo\ 1/projectAkhir/Basdat/transfer.h
