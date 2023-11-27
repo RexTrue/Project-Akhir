@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>History</class>
+ <widget class="QWidget" name="History">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>650</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: rgb(78, 131, 181);</string>
+   </property>
+   <widget class="QWidget" name="page">
+    <widget class="QTableView" name="tableView">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>60</y>
+       <width>691</width>
+       <height>561</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid black;
+border-radius: 20px;
+background: #f5f5f5;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>20</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-size: 28px;
+font-weight: bold;</string>
+     </property>
+     <property name="text">
+      <string>HISTORY</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>580</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:rgb(78, 131, 181);
+font-weight : bold ;
+border-radius : 10px;</string>
+     </property>
+     <property name="text">
+      <string>Home</string>
+     </property>
+    </widget>
+    <widget class="QScrollBar" name="verticalScrollBar">
+     <property name="geometry">
+      <rect>
+       <x>730</x>
+       <y>60</y>
+       <width>15</width>
+       <height>561</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid black;
+border-radius: 20px;
+
+width : 10px;</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
